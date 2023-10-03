@@ -14,7 +14,7 @@
 		CA01B7CE2AC6DAEF001B2965 /* PSServerDrivenUIAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA01B7CD2AC6DAEF001B2965 /* PSServerDrivenUIAppTests.swift */; };
 		CA01B7D82AC6DAEF001B2965 /* PSServerDrivenUIAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA01B7D72AC6DAEF001B2965 /* PSServerDrivenUIAppUITests.swift */; };
 		CA01B7DA2AC6DAEF001B2965 /* PSServerDrivenUIAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA01B7D92AC6DAEF001B2965 /* PSServerDrivenUIAppUITestsLaunchTests.swift */; };
-		CA01B7EB2AC6E385001B2965 /* SDUIPackage in Frameworks */ = {isa = PBXBuildFile; productRef = CA01B7EA2AC6E385001B2965 /* SDUIPackage */; };
+		CAC8DD942AC6EB1500212D93 /* SDUIPackage in Frameworks */ = {isa = PBXBuildFile; productRef = CAC8DD932AC6EB1500212D93 /* SDUIPackage */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,7 +52,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CA01B7EB2AC6E385001B2965 /* SDUIPackage in Frameworks */,
+				CAC8DD942AC6EB1500212D93 /* SDUIPackage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -146,7 +146,7 @@
 			);
 			name = PSServerDrivenUIApp;
 			packageProductDependencies = (
-				CA01B7EA2AC6E385001B2965 /* SDUIPackage */,
+				CAC8DD932AC6EB1500212D93 /* SDUIPackage */,
 			);
 			productName = PSServerDrivenUIApp;
 			productReference = CA01B7B92AC6DAED001B2965 /* PSServerDrivenUIApp.app */;
@@ -221,7 +221,7 @@
 			);
 			mainGroup = CA01B7B02AC6DAED001B2965;
 			packageReferences = (
-				CA01B7E92AC6E385001B2965 /* XCRemoteSwiftPackageReference "ServerDrivenUIPackage" */,
+				CAC8DD922AC6EB1500212D93 /* XCRemoteSwiftPackageReference "ServerDrivenUIPackage" */,
 			);
 			productRefGroup = CA01B7BA2AC6DAED001B2965 /* Products */;
 			projectDirPath = "";
@@ -432,6 +432,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -460,6 +461,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -587,7 +589,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		CA01B7E92AC6E385001B2965 /* XCRemoteSwiftPackageReference "ServerDrivenUIPackage" */ = {
+		CAC8DD922AC6EB1500212D93 /* XCRemoteSwiftPackageReference "ServerDrivenUIPackage" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/pratibha691/ServerDrivenUIPackage.git";
 			requirement = {
@@ -598,9 +600,9 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		CA01B7EA2AC6E385001B2965 /* SDUIPackage */ = {
+		CAC8DD932AC6EB1500212D93 /* SDUIPackage */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = CA01B7E92AC6E385001B2965 /* XCRemoteSwiftPackageReference "ServerDrivenUIPackage" */;
+			package = CAC8DD922AC6EB1500212D93 /* XCRemoteSwiftPackageReference "ServerDrivenUIPackage" */;
 			productName = SDUIPackage;
 		};
 /* End XCSwiftPackageProductDependency section */
